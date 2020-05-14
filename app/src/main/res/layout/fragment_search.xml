@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="402dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="21dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/button_search"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_search"
+        android:layout_width="400dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="23dp"
+        android:text="Search"
+        app:layout_constraintBottom_toTopOf="@+id/kitap_ozet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/kitap_ozet"
+        android:layout_width="382dp"
+        android:layout_height="406dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:text="Suç ve Ceza; Rodion Romanoviç Raskolnikov adındaki bir gencin işlediği çifte cinayet üzerine yaşadıklarını konu alıyor. Raskolnikov, bir yandan hukuk öğrenimi görürken diğer yandan yoksullukla boğuşan bir genç. Para ihtiyacını ise tefeci bir kadına eşyalarını bırakarak karşılıyor. Yoksulluğuna çare bulamadığı gibi tefeciden yakasını da kurtaramayan Raskolnikov, bu kadının toplumun iyiliği için ölmesi gerektiğini düşünmeye başlıyor.  Bir gün Raskolnikov, kendi maddi problemlerinin yanı sıra ailesinden de kötü bir haber alıyor. Kız kardeşinin kendisinden yaşça çok büyük biriyle evleneceğini duyması, ona yeni bir darbe indiriyor. Bunun üzerine Raskolnikov, tefeciyi öldürmeyi aklına koyarak kendini evden dışarı atıyor. Tefeci kadını öldürüp mücevherleri alıyor ancak işlediği cinayete kimsenin tanıklık etmemesi için onun kız kardeşini de öldürmek zorunda kalıyor.  Raskolnikov’un ruh hali, bu çifte cinayetle birlikte yerle bir oluyor. İşlediği suçu kimse görmemiş olmasına rağmen korkusu ve vicdanı onu büyük bir mahkumiyete sürüklüyor. Bir yandan mağdur, diğer yandan katil… Raskolnikov’u cinayete iten sebepler, onun alt üst olan iç dünyası ve sonrası ile siz de onun yeniden doğuşuna şahit olacaksınız. Bu kitabı okurken, kalp atışınızın arttığını duyumsayacaksınız.  "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

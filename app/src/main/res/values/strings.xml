@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">navigation_driver</string>
+
+    <integer-array name="icons_array">
+    <item>@drawable/ic_home_black_24dp</item>
+    <item>@drawable/ic_search_black_24dp</item>
+    <item>@drawable/ic_camera_alt_black_24dp</item>
+    <item>@drawable/ic_favorite_black_24dp</item>
+    <item>@drawable/ic_person_black_24dp</item>
+
+
+
+</integer-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
